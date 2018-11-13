@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="form">
+      <label>First name: <input type="text" name="fisrt-name" class="first-name field"></label>
+      <label>Last name: <input type="text" name="last-name" class="last-name field"></label>
+      <label>Birthday: <input type="text" name="birthday" class="birthday field" placeholder="dd/mm/yyyy"></label>
+      <label class="gender-text">Sex: </label>
+          Male: <input type="radio" name="gender" class="gender" value="male">
+          Female: <input type="radio" name="gender" class="gender" value="female">
+      <label>
+        Country:
+          <select name="country" class="country field">
+              <option></option>
+            <option value="USA">USA</option>
+            <option value="UKRAINE">UKRAINE</option>
+            <option value="CANADA">CANADA</option>
+          </select>
+      </label>
+      <label>Email: <input type="text" name="email" class="email field"></label>
+      <label>Password: <input type="password" name="password" class="password field"></label>
+      <label>Confirm Password: <input type="password" name="confirm-password" class="confirm-password field"></label>
+      <label>Address: <input type="text" name="address" class="address field"></label>
+      <div class="div"></div>
+      <label>
+        Notes:
+        <textarea name="notes" class="notes field" cols="30" rows="10"></textarea>
+      </label>
+      <input type="submit" value="CHECK">
+    </form>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
